@@ -39,4 +39,4 @@ group by channel_name
 on a.channel_name = b.channel_name
 where a.content_id <> 255 and b.count_show >10000" > ctr_by_channel.txt
 
-#python save_ctr_to_redis.py 
+python save_ctr_to_redis.py 
